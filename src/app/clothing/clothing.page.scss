@@ -1,0 +1,87 @@
+.image {
+    display: block;
+    height: 10px;
+    width: 10px
+}
+
+.item-native {
+    display: flex;
+    flex-direction: column;
+}
+ion-item {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    color: black ;
+    // --inner-padding-top: 16px;
+    -ms-text-justify: center;
+    --ion-font-family: 'B612 Mono', monospace;
+    font: 'B1612 Mono', monospace;
+  }
+  ion-label {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-self: center;
+      justify-items: center;
+    //   padding-left: 20px;
+      --font-family: 'B612 Mono', monospace;
+      letter-spacing: 0.04em;
+  }
+
+ion-img {
+  max-height: 150px;
+  max-width: 120px;
+  max-width: min;
+}
+
+.pin-photo {
+  max-height: 35px;
+  max-width: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+
+ion-content ion-scroll {
+    --background: url('https://lorempixel.com/400/200/sports/Dummy-Text/');
+}
+
+ion-grid {
+    background: url('https://lorempixel.com/400/200/sports/Dummy-Text/');
+}
+.pin-adjust {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-items: flex-start;
+    justify-self: flex-start;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding: 0px;
+    height: 20px;
+}
+ .ioner {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.pin-row {
+    display: flex;
+    justify-content: center;
+
+}
+.pin-col {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    padding-bottom: 23px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+ion-card {
+    border-radius: 0px;
+}

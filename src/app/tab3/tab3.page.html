@@ -1,9 +1,213 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar primary color="dark" justify-space-between height="100vh" >
     <ion-title>
-      Tab Three
+      <ion-grid>
+      <ion-buttons >
+        <ion-button (click)="btnClicked()" fill="outline" color="secondary" class="button icon ion-gear-a" >Back</ion-button>
+        Add Clothes
+        <ion-button (click)="btnClicked()"><ion-icon name="arrow-forward"></ion-icon></ion-button>
+      </ion-buttons>
+    </ion-grid>
+
     </ion-title>
+    
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-header>
+  <ion-toolbar >
+    
+    <ion-title>What item would you like to add?</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content center style="background: url('https://lorempixel.com/400/200/sports/Dummy-Text/')">
+  <div class="title-container">
+    </div>
+  <ion-grid  >
+  <!-- <ion-col> -->
+    <ion-row class="ion-justify-content-start">
+    <ion-col>
+      
+    <div class="categories">
+  <ion-card class="ion-justify-content-center" (click)="openAddShirt()">
+    <ion-item class="pin-adjust">
+      <ion-grid class="ioner">
+        <ion-col class="pin-col">
+          <ion-row class="pin-row">
+        <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+      </ion-row>
+      </ion-col>
+      </ion-grid>
+    </ion-item>
+    <ion-item (click)="openAddShirt()" class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+      <!-- <div> -->
+        <!-- <ion-tumbnail> -->
+            <ion-img width="200" height="90" src="assets/shirts-closet.jpeg"></ion-img>
+          <!-- </ion-thumbnail> -->
+        <!-- </div> -->
+      </ion-item>
+      <ion-item > 
+        
+          <ion-grid class="center">
+              <ion-col  class="center"> 
+               <ion-row  class="center">
+             <ion-label><div class="circle">
+                Shirts
+                             </div></ion-label>
+           </ion-row>
+           </ion-col>
+         </ion-grid>
+      </ion-item>   
+      
+    
+  </ion-card>
+</div>
+    </ion-col>
+    <ion-col>
+<div>
+    <ion-card class="ion-justify-content-center" (click)="addJackets()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item  class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="auto" height="auto" src="assets/jacket.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"Jackets"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+</div>
+</ion-col>
+</ion-row>
+
+<ion-row class="ion-justify-content-start">
+    <ion-col>
+    <div class="categories">
+      
+  <ion-card class="ion-justify-content-center" (click)="addShoes()" >
+      <ion-item class="pin-adjust">
+          <ion-grid class="ioner">
+            <ion-col class="pin-col">
+              <ion-row class="pin-row">
+            <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+          </ion-row>
+          </ion-col>
+          </ion-grid>
+        </ion-item>
+    <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+      <!-- <div> -->
+        <!-- <ion-thumbnail> -->
+            <ion-img width="200" height="100" src="assets/dress-shoes.jpeg"></ion-img>
+          <!-- </ion-thumbnail> -->
+        <!-- </div> -->
+      </ion-item>
+      <ion-item > 
+          <ion-grid class="center">
+              <ion-col  class="center"> 
+               <ion-row  class="center">
+             <ion-label>"Shoes"</ion-label>
+           </ion-row>
+           </ion-col>
+         </ion-grid>
+      </ion-item>
+      
+    
+  </ion-card>
+</div>
+    </ion-col>
+    <ion-col>
+<div>
+    <ion-card class="ion-justify-content-center" (click)="addPants()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="200" height="100" src="assets/pants-men.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"Pants"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+</div>
+
+<div>
+    <ion-card class="ion-justify-content-center" (click)="addSweater()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="200" height="100" src="assets/sweater-men.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"Sweater"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+             
+          </ion-item>   
+
+          
+          
+        
+      </ion-card>
+</div>
+</ion-col>
+</ion-row>
+
+</ion-grid>
+</ion-content>
+
+</ion-content>
+
+

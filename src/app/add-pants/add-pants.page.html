@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add Pants</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-label>What is the main color pants?</ion-label>
+    <ion-item>
+    <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="Select One">
+      <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="white">White</ion-select-option>
+      <ion-select-option value="blue">Blue</ion-select-option>
+      <ion-select-option value="red">Red</ion-select-option>
+      <ion-select-option value="green">Green</ion-select-option>
+      <ion-select-option value="grey">Grey</ion-select-option>
+      <ion-select-option value="purple">Purple</ion-select-option>
+      <ion-select-option value="yellow">Yellow</ion-select-option>
+      <ion-select-option value="pink">Pink</ion-select-option>
+      <!-- <ion-select-option value="plaid">Plaid</ion-select-option> -->
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>What is the shade of that color?</ion-label>
+      <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="Select One">
+        <ion-select-option value="medium-shade">Medium</ion-select-option>
+        <ion-select-option value="light-shade">Light</ion-select-option>
+        <ion-select-option value="dark-shade">Dark</ion-select-option>
+      </ion-select>
+    </ion-item>
+    
+  <ion-item>
+      <ion-label>What is the pant length?</ion-label>
+      <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="Select One">
+        <ion-select-option value="medium-shade">Long Pants</ion-select-option>
+        <ion-select-option value="light-shade">Shorts</ion-select-option>
+        
+      </ion-select>
+    </ion-item>
+</ion-content>

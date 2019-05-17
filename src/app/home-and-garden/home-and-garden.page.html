@@ -1,0 +1,431 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home and Garden</ion-title>
+    <!-- <ion-button [routerLink]="['/tab2.page']">Go to detail</ion-button> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content center style="background: url('https://lorempixel.com/400/200/sports/Dummy-Text/')">
+  <ion-grid  >
+  <!-- <ion-col> -->
+    <ion-row class="ion-justify-content-start">
+    <ion-col>
+    <div class="categories">
+  <ion-card class="ion-justify-content-center">
+    <ion-item class="pin-adjust">
+      <ion-grid class="ioner">
+        <ion-col class="pin-col">
+          <ion-row class="pin-row">
+        <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+      </ion-row>
+      </ion-col>
+      </ion-grid>
+    </ion-item>
+    <ion-item (click)="openSofasAndCouches()" class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+      <!-- <div> -->
+        <!-- <ion-tumbnail> -->
+            <ion-img width="200" height="90" src="assets/sofa-card.jpg"></ion-img>
+          <!-- </ion-thumbnail> -->
+        <!-- </div> -->
+      </ion-item>
+      <ion-item > 
+          <ion-grid class="center">
+              <ion-col  class="center"> 
+               <ion-row  class="center">
+             <ion-label>"SOFAS & COUCHES"</ion-label>
+           </ion-row>
+           </ion-col>
+         </ion-grid>
+      </ion-item>   
+      
+    
+  </ion-card>
+</div>
+    </ion-col>
+    <ion-col>
+<div>
+    <ion-card class="ion-justify-content-center" (click)="openJeans()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item  class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="auto" height="auto" src="assets/jeans.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"DRESSERS"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+</div>
+</ion-col>
+</ion-row>
+
+<ion-row class="ion-justify-content-start">
+    <ion-col>
+    <div class="categories">
+      
+  <ion-card class="ion-justify-content-center" (click)="openActive()" >
+      <ion-item class="pin-adjust">
+          <ion-grid class="ioner">
+            <ion-col class="pin-col">
+              <ion-row class="pin-row">
+            <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+          </ion-row>
+          </ion-col>
+          </ion-grid>
+        </ion-item>
+    <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+      <!-- <div> -->
+        <!-- <ion-thumbnail> -->
+            <ion-img width="200" height="100" src="assets/active-wear.jpeg"></ion-img>
+          <!-- </ion-thumbnail> -->
+        <!-- </div> -->
+      </ion-item>
+      <ion-item > 
+          <ion-grid class="center">
+              <ion-col  class="center"> 
+               <ion-row  class="center">
+             <ion-label>"ACCENT CHAIRS"</ion-label>
+           </ion-row>
+           </ion-col>
+         </ion-grid>
+      </ion-item>   
+      
+    
+  </ion-card>
+</div>
+    </ion-col>
+    <ion-col>
+<div>
+    <ion-card class="ion-justify-content-center" (click)="openHoodies()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="200" height="100" src="assets/hoddie-wear.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"DESKS"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+</div>
+</ion-col>
+</ion-row>
+
+<ion-row class="ion-justify-content-start" >
+  
+    <ion-col>
+    <div class="categories">
+  <ion-card class="ion-justify-content-center" (click)="openTShirts()">
+      <ion-item class="pin-adjust">
+          <ion-grid class="ioner">
+            <ion-col class="pin-col">
+              <ion-row class="pin-row">
+            <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+          </ion-row>
+          </ion-col>
+          </ion-grid>
+        </ion-item>
+    <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+      <!-- <div> -->
+        <!-- <ion-thumbnail> -->
+            <ion-img width="90%" height="100%" src="assets/t-shirt-wear.jpeg"></ion-img>
+          <!-- </ion-thumbnail> -->
+        <!-- </div> -->
+      </ion-item>
+      <ion-item > 
+           <ion-grid class="center">
+             <ion-col  class="center"> 
+              <ion-row  class="center">
+            <ion-label>"BEDS"</ion-label>
+          </ion-row>
+          </ion-col>
+        </ion-grid>
+      </ion-item>   
+      
+    
+  </ion-card>
+</div>
+    </ion-col>
+    <ion-col>
+<div>
+    <ion-card class="ion-justify-content-center" (click)="openSuits()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="200" height="100" src="assets/suits-wear.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"TABLE & CHAIR <br> SETS"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+</div>
+</ion-col>
+</ion-row>
+
+<ion-row class="ion-justify-content-start">
+
+    <ion-col >
+        <div class="categories">
+      <ion-card class="ion-justify-content-center" (click)="openTanktops()">
+          <ion-item class="pin-adjust">
+              <ion-grid class="ioner">
+                <ion-col class="pin-col">
+                  <ion-row class="pin-row">
+                <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+              </ion-row>
+              </ion-col>
+              </ion-grid>
+            </ion-item>
+        <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="200" height="100" src="assets/tank-top-wear.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"LIVING ROOM <br> TABLES"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+    </div>
+        </ion-col>
+    <ion-col>
+<div>
+    <ion-card class="ion-justify-content-center" (click)="openSocks()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="200" height="100" src="assets/socks-wear.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"TV & MEDIA"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+</div>
+</ion-col>
+</ion-row>
+
+<ion-row class="ion-justify-content-start">
+    <ion-col>
+    <div class="categories">
+  <ion-card class="ion-justify-content-center" (click)="openSweaters()">
+      <ion-item class="pin-adjust">
+          <ion-grid class="ioner">
+            <ion-col class="pin-col">
+              <ion-row class="pin-row">
+            <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+          </ion-row>
+          </ion-col>
+          </ion-grid>
+        </ion-item>
+    <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+      <!-- <div> -->
+        <!-- <ion-thumbnail> -->
+            <ion-img width="200" height="100" src="assets/sweater-wear.jpeg"></ion-img>
+          <!-- </ion-thumbnail> -->
+        <!-- </div> -->
+      </ion-item>
+      <ion-item > 
+          <ion-grid class="center">
+              <ion-col  class="center"> 
+               <ion-row  class="center">
+             <ion-label>"RUGS"</ion-label>
+           </ion-row>
+           </ion-col>
+         </ion-grid>
+      </ion-item>   
+      
+    
+  </ion-card>
+</div>
+    </ion-col>
+    <ion-col>
+<div>
+    <ion-card class="ion-justify-content-center" (click)="openJackets()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="200" height="100" src="assets/jacket-wear.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item > 
+              <ion-grid class="center">
+                  <ion-col  class="center"> 
+                   <ion-row  class="center">
+                 <ion-label>"MATTRESSES"</ion-label>
+               </ion-row>
+               </ion-col>
+             </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+</div>
+</ion-col>
+</ion-row>
+
+<ion-row class="ion-justify-content-start" >
+    <ion-col>
+    <div class="categories">
+  <ion-card class="ion-justify-content-center" (click)="openSwimsuits()">
+      <ion-item class="pin-adjust">
+          <ion-grid class="ioner">
+            <ion-col class="pin-col">
+              <ion-row class="pin-row">
+            <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+          </ion-row>
+          </ion-col>
+          </ion-grid>
+        </ion-item>
+    <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+      <!-- <div> -->
+        <!-- <ion-thumbnail> -->
+            <ion-img width="200" height="100" src="assets/swimsuit-man.jpeg"></ion-img>
+          <!-- </ion-thumbnail> -->
+        <!-- </div> -->
+      </ion-item>
+      <ion-item > 
+          <ion-grid class="center">
+              <ion-col  class="center"> 
+               <ion-row  class="center">
+             <ion-label>"DESK CHAIRS"</ion-label>
+           </ion-row>
+           </ion-col>
+         </ion-grid>
+      </ion-item>   
+      
+    
+  </ion-card>
+</div>
+    </ion-col>
+    <ion-col>
+
+<div>
+    <ion-card class="ion-justify-content-center" (click)="openPants()">
+        <ion-item class="pin-adjust">
+            <ion-grid class="ioner">
+              <ion-col class="pin-col">
+                <ion-row class="pin-row">
+              <ion-img center class="pin-photo" width="10" height="10" src="assets/pushpin.png"></ion-img>
+            </ion-row>
+            </ion-col>
+            </ion-grid>
+          </ion-item>
+        <ion-item class="ion-justify-content-center" lines="none"  inner-pading-top="50px">
+          <!-- <div> -->
+            <!-- <ion-thumbnail> -->
+                <ion-img width="200" height="100" src="assets/pants-wear.jpeg"></ion-img>
+              <!-- </ion-thumbnail> -->
+            <!-- </div> -->
+          </ion-item>
+          <ion-item >
+            <ion-grid class="center">
+             <ion-col  class="center"> 
+              <ion-row  class="center">
+            <ion-label>"NIGHTSTANDS"</ion-label>
+          </ion-row>
+          </ion-col>
+        </ion-grid>
+          </ion-item>   
+          
+        
+      </ion-card>
+</div>
+
+</ion-col>
+</ion-row>
+
+</ion-grid>
+</ion-content>

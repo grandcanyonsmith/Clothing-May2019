@@ -1,1 +1,32 @@
+// .tabs-categories{
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: row;
 
+// }
+
+.action-sheets-basic-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ion-card-content {
+    color: white;
+    text-emphasis: none;
+}
+// :host {
+//     --color: white;
+//     --text-color: white;
+// }
+
+ion-card-title {
+    --color:black;
+    --text-color: white;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: grey;
+}

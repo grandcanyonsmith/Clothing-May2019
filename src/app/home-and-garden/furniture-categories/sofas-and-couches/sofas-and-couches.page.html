@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sofa and Couches</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-input>
+    <ion-item><ion-img  width="3" height="3" src="assets/walls-photo.jpg"></ion-img>
+        <ion-label>What color walls do you have?</ion-label>
+        <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+          <ion-select-option value="black">Black</ion-select-option>
+          <ion-select-option value="grey">Grey</ion-select-option>
+          <ion-select-option value="brown">Brown</ion-select-option>
+          <ion-select-option value="green">Green</ion-select-option>
+          <ion-select-option value="white">White</ion-select-option>
+          <ion-select-option value="violet">Violet</ion-select-option>
+          <ion-select-option value="pink">Pink</ion-select-option>
+          <ion-select-option value="red">Red</ion-select-option>
+          <ion-select-option value="orange">Orange</ion-select-option>
+          <ion-select-option value="yellow">Yellow</ion-select-option>
+        </ion-select>
+      </ion-item></ion-input>
+
+      <ion-input>
+          <ion-item>
+              <ion-img  width="3" height="3" src="assets/black-floor.jpg"></ion-img>
+              <ion-label>What color floor do you have?</ion-label>
+              <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+                <ion-select-option value="black">
+                  <ion-item>
+                    
+                  </ion-item>
+                  Black</ion-select-option>
+                <ion-select-option value="grey">Grey</ion-select-option>
+                <ion-select-option value="brown">Brown</ion-select-option>
+                <ion-select-option value="green">Green</ion-select-option>
+                <ion-select-option value="white">White</ion-select-option>
+                <ion-select-option value="violet">Violet</ion-select-option>
+                <ion-select-option value="pink">Pink</ion-select-option>
+                <ion-select-option value="red">Red</ion-select-option>
+                <ion-select-option value="orange">Orange</ion-select-option>
+                <ion-select-option value="yellow">Yellow</ion-select-option>
+              </ion-select>
+            </ion-item></ion-input>
+            <ion-button [buttonType]="input" style="border: 0; background: transparent;">
+              <ion-img class="img-button" src="assets/walls-photo.jpg"></ion-img>
+            </ion-button>
+            
+  </ion-content>

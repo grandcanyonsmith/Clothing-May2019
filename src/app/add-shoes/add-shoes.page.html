@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add Shoes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+    <ion-content>
+
+        <ion-item>
+            <ion-label>What kind of shoes are they?</ion-label>
+            <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="Select One">
+              <ion-select-option value="shoe-type-boot">Boots</ion-select-option>
+              <ion-select-option value="shoe-type-dress-shoe">Dress shoes</ion-select-option>
+              <ion-select-option value="shoe-type-sneakers">Sneakers</ion-select-option>
+              <ion-select-option value="shoe-type-loafers">Loafers</ion-select-option>
+              
+            </ion-select>
+          </ion-item>
+          
+          <ion-item>
+        <ion-label>What is the main color shoes?</ion-label>
+        <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="Select One">
+          <ion-select-option value="black">Black</ion-select-option>
+          <ion-select-option value="brown">Brown</ion-select-option>
+          <ion-select-option value="white">White</ion-select-option>
+          <ion-select-option value="blue">Blue</ion-select-option>
+          <ion-select-option value="red">Red</ion-select-option>
+          <ion-select-option value="green">Green</ion-select-option>
+          <ion-select-option value="grey">Grey</ion-select-option>
+          <ion-select-option value="purple">Purple</ion-select-option>
+          <ion-select-option value="yellow">Yellow</ion-select-option>
+          <ion-select-option value="pink">Pink</ion-select-option>
+          <!-- <ion-select-option value="plaid">Plaid</ion-select-option> -->
+        </ion-select>
+      </ion-item>
+    
+      <ion-item>
+          <ion-label>What is the shade of that color?</ion-label>
+          <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="Select One">
+            <ion-select-option value="medium-shade">Medium</ion-select-option>
+            <ion-select-option value="light-shade">Light</ion-select-option>
+            <ion-select-option value="dark-shade">Dark</ion-select-option>
+          </ion-select>
+        </ion-item>
+        
+
+    </ion-content>
+
+    

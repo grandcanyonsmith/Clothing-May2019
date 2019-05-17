@@ -1,5 +1,9 @@
 {
   "name": "tabs-App",
-  "integrations": {},
-  "type": "angular"
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "467bb8f9"
 }

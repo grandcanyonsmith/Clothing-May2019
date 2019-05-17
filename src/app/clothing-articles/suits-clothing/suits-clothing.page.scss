@@ -1,0 +1,24 @@
+ion-item {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    color: black ;
+    --inner-padding-top: 16px;
+    -ms-text-justify: center;
+    --ion-font-family: 'B612 Mono', monospace;
+    font: 'B1612 Mono', monospace;
+  }
+  ion-label {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-self: center;
+      justify-items: center;
+      padding-left: 20px;
+      --font-family: 'B612 Mono', monospace;
+    //   --inline: none
+  }
+
+ion-img {
+
+}

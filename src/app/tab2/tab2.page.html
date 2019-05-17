@@ -1,9 +1,91 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar primary color="dark">
     <ion-title>
-      Tab Two
+        <ion-button (click)="btnClicked()" fill="outline" color="secondary" class="button icon ion-gear-a">Back</ion-button>
+        Add Clothes to MyCloset
+        <!-- <ion-button (click)="btnClicked()"><ion-icon name="arrow-forward"></ion-icon></ion-button> -->
+        
+
     </ion-title>
+    
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<!-- <ion-content padding class="action-sheets-basic-page" center> -->
+  <!-- <ion-row class="ion-justify-content-center">
+    <ion-col class="ion-justify-content-center">
+  <div class="tabs-categories">
+    <button ion-button block (click)="openMenu()">
+      Show Action Sheet
+    </button>
+
+      <div>
+        <ion-button (click)="openMenu()">Home & Garden</ion-button>
+      </div>
+      <div>
+        <ion-button (click)="openMenu()">Clothing & Accessories</ion-button>
+      </div>
+      <div>
+        <ion-button (click)="openMenu()">Beauty</ion-button>
+      </div>
+      <div>
+        <ion-button (click)="openMenu()">Food & Recipes</ion-button>
+      </div>
+      <div>
+        <ion-button (click)="openMenu()">Architecture</ion-button>
+      </div>
+    </div>
+  </ion-col>
+</ion-row> -->
+  <!-- </ion-content> -->
+
+  <!-- <ion-card> -->
+    
+      <!-- <div className="categories"> -->
+<ion-content>
+        <ion-grid>
+      <!-- <ion-column> -->
+      <ion-card-content (click)="openHomeAndGarden()">
+          <ion-card-title>Home & Garden</ion-card-title>
+      </ion-card-content>
+    <ion-card-content (click)="openClothing()">
+        <ion-card-title>Clothing & Accessories</ion-card-title>
+    </ion-card-content>
+    <ion-card-content (click)="openBeauty()">
+        <ion-card-title>Beauty</ion-card-title>
+    </ion-card-content>
+    <ion-card-content (click)="openFoodAndRecipes()">
+        <ion-card-title>Food & Recipes</ion-card-title>
+    </ion-card-content>
+    <ion-card-content (click)="openArchitecture()">
+        <ion-card-title>Architecture</ion-card-title>
+    </ion-card-content>
+  <!-- </ion-column> -->
+  </ion-grid>
+</ion-content>
+  <!-- </div> -->
+
+    
+  
+
+  
+  <!-- </ion-card> -->
+ 
+
+<!-- 
+<ion-row align-items-center>
+    <ion-col>
+      [center] ion-col
+    </ion-col>
+    <ion-col>
+      [center] ion-col
+    </ion-col>
+    <ion-col>
+      [center] ion-col
+    </ion-col>
+    <ion-col>
+      ion-col
+      <br>#
+      <br>#
+    </ion-col> -->
+

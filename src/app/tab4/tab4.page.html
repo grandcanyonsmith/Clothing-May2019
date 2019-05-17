@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-toolbar color="dark">
+      <ion-title>
+        My Closet
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-grid>
+      <!-- <ion-colum> -->
+        <ion-row>
+      <ion-card (click)="fullOutfits()">
+        <ion-card-content >
+        Full outfits
+      </ion-card-content>
+      </ion-card>
+      </ion-row>
+      <ion-row>
+          <ion-card (click)="outfitsMinus1()">
+        <ion-card-content>
+          Outfits - one article of clothing.
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+    <ion-row>
+        <ion-card (click)="outfitsMinus2()">
+        <ion-card-content>
+            Outfits - two articles of clothing.
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+      <!-- </ion-colum> -->
+    </ion-grid>
+  </ion-content>
+  
