@@ -13,13 +13,13 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^7.2.15",
-    "@angular/core": "^7.2.15",
-    "@angular/forms": "^7.2.15",
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3",
+    "@angular/forms": "^8.0.3",
     "@angular/http": "^7.2.15",
-    "@angular/platform-browser": "^7.2.15",
-    "@angular/platform-browser-dynamic": "^7.2.15",
-    "@angular/router": "^7.2.15",
+    "@angular/platform-browser": "^8.0.3",
+    "@angular/platform-browser-dynamic": "^8.0.3",
+    "@angular/router": "^8.0.3",
     "@capacitor/cli": "1.0.0-beta.19",
     "@capacitor/core": "1.0.0-beta.19",
     "@ionic-native/camera": "^5.8.0",
@@ -58,8 +58,8 @@
     "ionic-angular": "^3.9.6",
     "ng": "0.0.0",
     "react": "^16.8.6",
-    "rxjs": "^5.5.12",
-    "zone.js": "~0.8.29"
+    "rxjs": "^6.5.2",
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.12.3",
@@ -67,9 +67,9 @@
     "@angular-devkit/core": "~7.2.3",
     "@angular-devkit/schematics": "~7.2.3",
     "@angular/cli": "^8.0.6",
-    "@angular/compiler": "^7.2.15",
-    "@angular/compiler-cli": "^7.2.15",
-    "@angular/language-service": "^7.2.15",
+    "@angular/compiler": "^8.0.3",
+    "@angular/compiler-cli": "^8.0.3",
+    "@angular/language-service": "^8.0.3",
     "@ionic/angular-toolkit": "~1.4.0",
     "@ionic/app-scripts": "^3.2.4",
     "@ionic/lab": "1.0.24",
@@ -87,7 +87,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~8.0.0",
     "tslint": "~5.12.0",
-    "typescript": "~3.1.6"
+    "typescript": "~3.4.5"
   },
   "description": "An Ionic project",
   "cordova": {
