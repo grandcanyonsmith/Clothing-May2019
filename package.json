@@ -64,7 +64,6 @@
     "diff": "^4.0.1",
     "dotenv": "^8.0.0",
     "elementtree": "^0.1.7",
-    "ionic": "^5.2.0",
     "ionic-angular": "^3.9.6",
     "leek": "0.0.24",
     "ng": "0.0.0",
