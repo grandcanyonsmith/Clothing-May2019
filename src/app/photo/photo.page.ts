@@ -1,6 +1,6 @@
 // import { Component, OnInit } from '@angular/core';
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { Camera, CameraOptions, PictureSourceType } from '@ionic-native/Camera/ngx';
+// import { Camera, CameraOptions, PictureSourceType } from '@ionic-native/Camera/ngx';
 import { ActionSheetController, ToastController, Platform, LoadingController } from '@ionic/angular';
 import { File, FileEntry } from '@ionic-native/File/ngx';
 import { HttpClient } from '@angular/common/http';
